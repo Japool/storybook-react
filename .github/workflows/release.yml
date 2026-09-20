@@ -24,11 +24,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci || (echo "=== NPM LOG ===" && cat /home/runner/.npm/_logs/*-debug-0.log 2>/dev/null && exit 1)
 
       - name: Build library
         run: npm run build:lib
