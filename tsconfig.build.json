@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "ignoreDeprecations": "6.0",
+    "types": ["vite/client"]
+  },
+  "include": [
+    "src/index.ts",
+    "src/components/**/*",
+    "src/vite-env.d.ts"
+  ],
+  "exclude": [
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+    "**/*.test.tsx",
+    "**/*.test.ts"
+  ]
+}
+
