@@ -1,5 +1,7 @@
 # jp-storybook-components
 
+[![Storybook Live](https://img.shields.io/badge/Storybook-Live_Docs-FF4785?logo=storybook&logoColor=white)](https://japool.github.io/storybook-react/)
+
 Librería de componentes React moderna construida con **TypeScript**, **CSS Modules**, **Storybook 10** y empaquetada con **tsup**.
 
 ## 🚀 Características
